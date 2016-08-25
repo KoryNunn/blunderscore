@@ -1,6 +1,6 @@
 # Blunderscore
 
-Replaces underscore (or lodash) with a much lighter dependency.
+Underscore/lodash but with literally no bloat.
 
 ## Usage
 
@@ -20,3 +20,9 @@ _.forEach(items, function(){
 ```
 
 The above `throws` try https://npmsearch.com/?q=forEach instead.
+
+## Why?
+
+Almost every module that depends on `lodash` uses around 4 methods from it.
+This module can help those developers who are keen to not install 14 petabytes of
+unused code.
